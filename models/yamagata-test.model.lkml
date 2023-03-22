@@ -2,7 +2,7 @@ connection: "looker-private-demo"
 # test comment
 
 # include all the views
-include: "/views/**/*.view"
+include: "/views/*.view.lkml"
 
 datagroup: yamagata-test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
