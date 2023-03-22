@@ -1,4 +1,5 @@
 connection: "looker-private-demo"
+# test comment
 
 # include all the views
 include: "/views/**/*.view"
